@@ -3,7 +3,7 @@ const { generateMeta, generateImage } = require("./controller");
 
 // Setup
 const app = express();
-app.listen(4000, () => console.log("listening to requests on port 4000"));
+app.listen(5000, () => console.log("Listening to requests on port 5000"));
 
 // Middleware
 app.use(express.json());

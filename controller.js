@@ -1,4 +1,4 @@
-const openai = require("../config/openaiConfig");
+const openai = require("./config");
 
 const generateMeta = async (req, res) => {
   const { title } = req.body;
